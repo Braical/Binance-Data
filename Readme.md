@@ -4,7 +4,7 @@ Binance Data Downloader is a Python script designed to download historical price
 
 ## Features
 
-- Downloads historical price data (monthly klines) for the top 100 tickers by trading volume.
+- Downloads historical price data (minute klines) for a list of tickers.
 - Saves the data to a SQLite database.
 - Uses multiprocessing to download data for multiple tickers concurrently.
 - Skips tickers for which data has already been downloaded.
